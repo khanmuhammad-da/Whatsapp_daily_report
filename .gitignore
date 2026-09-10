@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local data
+data/*
+!data/.gitkeep
+
+# Generated reports
+output/*
+!output/.gitkeep
+
+# Uploaded WhatsApp exports
+*.txt
+
+# Excel files containing potentially sensitive operational data
+*.xlsx
+*.xls
+*.xlsm
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
