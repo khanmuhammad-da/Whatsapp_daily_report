@@ -28,7 +28,8 @@ output/*
 !output/.gitkeep
 
 # Uploaded WhatsApp exports
-*.txt
+*.whatsapp.txt
+WhatsApp Chat.txt
 
 # Excel files containing potentially sensitive operational data
 *.xlsx
